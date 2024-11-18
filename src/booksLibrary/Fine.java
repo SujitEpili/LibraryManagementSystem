@@ -17,6 +17,7 @@ public class Fine
 		while(daysOverdue > 0)
 		{
 			amount += 10;  // per day 10unit fine
+			daysOverdue--;
 		}	
 	}
 	void markAsPaid()
